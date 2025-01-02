@@ -40,5 +40,3 @@ function Map({setbounds,setcoordinates,coordinates,places,setChildClicked}) {
 }
 
 export default Map
-
-

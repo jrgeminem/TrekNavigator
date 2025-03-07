@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "./components/Header/Header";
 import List from "./components/List/List";
 import Map from "./components/Map/Map";
+import Codar from "./components/Codar/Codar";
 
 function App() {
 
@@ -82,6 +83,7 @@ function App() {
           <Map setbounds={setbounds} setcoordinates={setcoordinates} coordinates={coordinates} places={filteredPlaces.length ? filteredPlaces : places} setChildClicked={setChildClicked}/>
         </div>
       </div>
+      <Codar />
     </div>
   );
 }
